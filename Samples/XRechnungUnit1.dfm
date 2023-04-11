@@ -51,7 +51,7 @@ object Form1: TForm1
   object Memo3: TMemo
     Left = 144
     Top = 508
-    Width = 1745
+    Width = 1516
     Height = 169
     Anchors = [akLeft, akRight, akBottom]
     ScrollBars = ssBoth
@@ -145,8 +145,8 @@ object Form1: TForm1
     TabOrder = 11
   end
   object Button2: TButton
-    Left = 9
-    Top = 652
+    Left = 8
+    Top = 556
     Width = 129
     Height = 25
     Caption = 'Datei laden'
@@ -156,23 +156,41 @@ object Form1: TForm1
   object Panel1: TPanel
     Left = 808
     Top = 29
-    Width = 1081
+    Width = 852
     Height = 473
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 13
     object WebBrowser2: TWebBrowser
       Left = 1
       Top = 1
-      Width = 1079
+      Width = 850
       Height = 471
       Align = alClient
       TabOrder = 0
       ControlData = {
-        4C000000856F0000AE3000000000000000000000000000000000000000000000
+        4C000000DA570000AE3000000000000000000000000000000000000000000000
         000000004C000000000000000000000001000000E0D057007335CF11AE690800
         2B2E126208000000000000004C0000000114020000000000C000000000000046
         8000000000000000000000000000000000000000000000000000000000000000
         00000000000000000100000000000000000000000000000000000000}
     end
+  end
+  object Button3: TButton
+    Left = 8
+    Top = 624
+    Width = 130
+    Height = 25
+    Caption = 'XRechnung validieren'
+    TabOrder = 14
+    OnClick = Button3Click
+  end
+  object Button5: TButton
+    Left = 8
+    Top = 655
+    Width = 130
+    Height = 25
+    Caption = 'XRechnung visualisieren'
+    TabOrder = 15
+    OnClick = Button5Click
   end
 end
